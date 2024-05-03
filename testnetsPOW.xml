@@ -227,14 +227,55 @@
          VAR_ERROR = _result()
          section_end()!
 
-         section_start("", 805523577)!
-         /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoicnUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbRVJST1JdXSB8IFJFQk9PVElORyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6ImVuIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0VSUk9SXV0gfCBSRUJPT1RJTkciLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJsZXZlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaW5mbyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6ImNvbG9yIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJvcmFuZ2UiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-         logger_log({"color": ("orange"), "en": (VAR_ERROR + " | REBOOTING"), "level": ("info"), "ru": (VAR_ERROR + " | REBOOTING")})
+         section_start("", 684393064)!
+         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjE4MDY4NTM0LCJtYXN0ZXIiOjY4NDM5MzA2NCwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tFUlJPUl1dID09IFwiVGhlIGZhdWNldCBkZW5pZWQgc3RhcnRpbmcgYSBzZXNzaW9uIGJlY2F1c2UgeW91ciB3YWxsZXQgZG9lcyBub3QgbWVldCB0aGUgbWluaW11bSBwYXNzcG9ydCBzY29yZS5cIiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+         _cycle_params().if_else = VAR_ERROR == "The faucet denied starting a session because your wallet does not meet the minimum passport score.";
+         _set_if_expression("W1tFUlJPUl1dID09ICJUaGUgZmF1Y2V0IGRlbmllZCBzdGFydGluZyBhIHNlc3Npb24gYmVjYXVzZSB5b3VyIHdhbGxldCBkb2VzIG5vdCBtZWV0IHRoZSBtaW5pbXVtIHBhc3Nwb3J0IHNjb3JlLiI=");
+         _if(_cycle_params().if_else,function(){
+         section_insert()
+            section_start("", 325302992)!
+            /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoicnUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbRVJST1JdXSB8IEdPSU5HIFRPIE5FWFQgV0FMTEVUIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbRVJST1JdXSB8IEdPSU5HIFRPIE5FWFQgV0FMTEVUIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoibGV2ZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImluZm8iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJjb2xvciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoib3JhbmdlIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+            logger_log({"color": ("orange"), "en": (VAR_ERROR + " | GOING TO NEXT WALLET"), "level": ("info"), "ru": (VAR_ERROR + " | GOING TO NEXT WALLET")})
+            section_end()!
+
+            section_start("", 333709911)!
+            /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIxIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IC5yZWZyZXNoLWF1dG8iLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDEpIiwiY3NzMiI6IiIsImNzczMiOiIgPkNTUz4gLnJlZnJlc2gtYXV0byIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48ZGl2IGNsYXNzPVwicmVmcmVzaC1hdXRvIGNvbC0xMiBjb2wtbGctOCIsInhwYXRoIjoiID5YUEFUSD4gL2h0bWxbMV0vYm9keVtAY2xhc3M9XCJtb2RhbC1vcGVuXCJdL2RpdltAY2xhc3M9XCJmYWRlIGZhdWNldC1kaWFsb2cgbW9kYWwgc2hvd1wiXS9kaXZbQGNsYXNzPVwibW9kYWwtZGlhbG9nIG1vZGFsLWxnIG1vZGFsLWRpYWxvZy1jZW50ZXJlZFwiXS9kaXZbQGNsYXNzPVwibW9kYWwtY29udGVudFwiXS9kaXZbQGNsYXNzPVwibW9kYWwtYm9keVwiXS9kaXZbQGNsYXNzPVwicGFzc3BvcnQtZGlhbG9nIGVycm9yLWRpYWxvZ1wiXS9kaXZbQGNsYXNzPVwicG93LWJvb3N0LWluZm9cIl0vZGl2W0BjbGFzcz1cImJvb3N0LXBhc3Nwb3J0XCJdL2RpdltAY2xhc3M9XCJwYXNzcG9ydC1zdW1tYXJ5IGNvbnRhaW5lclwiXS9kaXZbQGNsYXNzPVwicm93IHBhc3Nwb3J0LXJlZnJlc2hcIl0vZGl2W0BjbGFzcz1cInJlZnJlc2gtYXV0byBjb2wtMTIgY29sLWxnLThcIl0iLCJhdCI6IjQ1MywgNzI4Iiwid2UiOnRydWUsImZhIjpmYWxzZX19*/
+            /*Browser*/
+            _SELECTOR = " \u003eCSS\u003e .refresh-auto";waiter_timeout_next(1000)
+            waiter_nofail_next();
+            wait_element_visible(_SELECTOR)!
+            _call(_random_point, {})!
+            _if(_result().length > 0, function(){
+            X = parseInt(_result().split(",")[0])
+            Y = parseInt(_result().split(",")[1])
+            mouse(X,Y)!
+            })!
+            section_end()!
+
+            section_start("", 491026013)!
+            /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTGFiZWxOYW1lIiwidHlwZSI6InRleHQiLCJkYXRhIjoiZW5kIn1dfQ==*/
+            _long_goto("end", 2, [])!
+            section_end()!
+
+         })!
          section_end()!
 
-         section_start("", 916193286)!
-         /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTGFiZWxOYW1lIiwidHlwZSI6InRleHQiLCJkYXRhIjoic3RhcnQifV19*/
-         _long_goto("start", 1, [])!
+         section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 18068534)!
+         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6MTgwNjg1MzQsIm1hc3RlciI6Njg0MzkzMDY0LCJpZl92YXIiOiJfY3ljbGVfcGFyYW1zKCkuaWZfZWxzZSIsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0VSUk9SXV0gPT0gXCJUaGUgZmF1Y2V0IGRlbmllZCBzdGFydGluZyBhIHNlc3Npb24gYmVjYXVzZSB5b3VyIHdhbGxldCBkb2VzIG5vdCBtZWV0IHRoZSBtaW5pbXVtIHBhc3Nwb3J0IHNjb3JlLlwiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
+         _if(!_cycle_params().if_else,function(){
+         section_insert()
+            section_start("", 479759907)!
+            /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoicnUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbRVJST1JdXSB8IFJFQk9PVElORyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6ImVuIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0VSUk9SXV0gfCBSRUJPT1RJTkciLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJsZXZlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaW5mbyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6ImNvbG9yIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJvcmFuZ2UiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+            logger_log({"color": ("orange"), "en": (VAR_ERROR + " | REBOOTING"), "level": ("info"), "ru": (VAR_ERROR + " | REBOOTING")})
+            section_end()!
+
+            section_start("", 974105073)!
+            /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTGFiZWxOYW1lIiwidHlwZSI6InRleHQiLCJkYXRhIjoic3RhcnQifV19*/
+            _long_goto("start", 2, [])!
+            section_end()!
+
+         })!
+         delete _cycle_params().if_else;
          section_end()!
 
       })!
@@ -372,6 +413,11 @@
       section_start("", 871172142)!
       /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUFJPSkVDVF9ESVJFQ1RPUlldXS9kb25lX2xpc3QudHh0IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbRVRIXV0gfCBbZ290IFtbQU1PVU5UXV0gRVRIXSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMyIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9LHsiaWQiOiJDaGVjazIiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
       native("filesystem", "writefile", JSON.stringify({path: VAR_PROJECT_DIRECTORY + "/done_list.txt",value: (VAR_ETH + " | [got " + VAR_AMOUNT + " ETH]").toString() + "\r\n",base64:false,append:true}))
+      section_end()!
+
+      section_start("", 772561799)!
+      /*Dat:eyJzIjoibGFiZWwiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkxhYmVsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJlbmQiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      _set_goto_label("end")!
       section_end()!
 
    }
@@ -1108,7 +1154,7 @@
      <ConnectionPassword></ConnectionPassword>
      <ScriptName>ScriptName</ScriptName>
      <ProtectionStrength>4</ProtectionStrength>
-     <UnusedModules>JSON;URL;ClickCaptcha;InMail;PhoneVerification</UnusedModules>
+     <UnusedModules>URL;ClickCaptcha;JSON;PhoneVerification;InMail</UnusedModules>
      <ScriptIcon>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</ScriptIcon>
      <IsCustomIcon>false</IsCustomIcon>
      <HideBrowsers>false</HideBrowsers>
@@ -1119,7 +1165,7 @@
      <CompileType>NoProtection</CompileType>
      <ScriptVersion>1.0.0</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>27.1.1</EngineVersion>
+     <EngineVersion>27.2.0</EngineVersion>
      <SettingsWorker>EnableWidevine=true
 EnableSafeBrowsing=true
 EnableVariations=true
@@ -1171,8 +1217,8 @@ Detector=true
     &quot;FTP&quot;: false,
     &quot;FunCaptcha&quot;: false,
     &quot;HCaptcha&quot;: true,
-    &quot;InMail&quot;: true,
     &quot;MailDeprecated&quot;: false,
+    &quot;OKX_Withdraw&quot;: false,
     &quot;ProxyCustom&quot;: false,
     &quot;ReCaptcha&quot;: true,
     &quot;SMSpool&quot;: false,
@@ -1183,15 +1229,15 @@ Detector=true
 }
 </ModulesMetaJson>
      <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;AMOUNT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CLAUD&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CONSENSUS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CONSENSUS1&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COUNT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DONELIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ERROR_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ETH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FINGERPRINT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FOREACH_DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FROM&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;K&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LAST_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MINED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NONE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PATHKEY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROJECT_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROXIES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RANDOM_NUMBER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;REBOOT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RECAPTCHA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SINCINDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SLEEP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;STRING_CONTAINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;THREAD_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;THREAD_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TIMER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TO&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TOO&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TRESH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAITING_RESULTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAS_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:THREADKEEPER&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;CONSENSUS\&quot;]&quot;:false,&quot;[\&quot;THREAD_LIST\&quot;]&quot;:false,&quot;[\&quot;CONSENSUS1\&quot;]&quot;:false,&quot;[\&quot;DONELIST\&quot;]&quot;:false,&quot;[\&quot;PROXIES\&quot;]&quot;:false,&quot;[\&quot;TOKENS_DATA\&quot;,\&quot;arbitrum\&quot;]&quot;:false}},&quot;resources&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;2captcha&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;Sleep&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;amount&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;chain&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;donelist&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;fpKey&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;randlist&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;randlist1&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;shuffle&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;threads&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;useFingerSwitcher&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;wallet\&quot;]&quot;:false,&quot;[\&quot;seed\&quot;]&quot;:false,&quot;[\&quot;sleepAkk\&quot;]&quot;:false,&quot;[\&quot;randlist\&quot;]&quot;:false,&quot;[\&quot;radlist\&quot;]&quot;:false,&quot;[\&quot;tokensList\&quot;]&quot;:false,&quot;[\&quot;Proxy\&quot;]&quot;:false,&quot;[\&quot;private\&quot;]&quot;:false,&quot;[\&quot;randlist1\&quot;]&quot;:false,&quot;[\&quot;reviews_list\&quot;]&quot;:false}},&quot;callstack&quot;:{&quot;filters&quot;:[{&quot;name&quot;:&quot;functions&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;actions&quot;,&quot;active&quot;:true}],&quot;sortings&quot;:[],&quot;options&quot;:[]}}</InterfaceState>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -1204,8 +1250,8 @@ Detector=true
      <ModelList>
           <Model>
                <Name>useFingerSwitcher</Name>
-               <Description en="Use Finger Switcher" ru="Use Finger Switcher"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Use Finger Switcher" en="Use Finger Switcher"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -1221,8 +1267,8 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>fpKey</Name>
-               <Description en="Finger Print Key" ru="Finger Print Key"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Finger Print Key" en="Finger Print Key"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <VisibilityConditionValue>Yes</VisibilityConditionValue>
                <VisibilityConditionVariable>useFingerSwitcher</VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -1236,8 +1282,8 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>2captcha</Name>
-               <Description en="2captcha API" ru="2captcha API"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="2captcha API" en="2captcha API"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -1251,8 +1297,8 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>chain</Name>
-               <Description en="chain" ru="chain"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="chain" en="chain"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -1268,8 +1314,8 @@ Holesky</Values>
           <Defaults/>
           <Model>
                <Name>amount</Name>
-               <Description en="Amount" ru="Amount"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Amount" en="Amount"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -1283,8 +1329,8 @@ Holesky</Values>
           <Defaults/>
           <Model>
                <Name>threads</Name>
-               <Description en="Threads" ru="Threads"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Threads" en="Threads"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -1299,8 +1345,8 @@ Holesky</Values>
           <Defaults/>
           <Model>
                <Name>Sleep</Name>
-               <Description en="Sleep" ru="Sleep"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Sleep" en="Sleep"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -1314,8 +1360,8 @@ Holesky</Values>
           <Defaults/>
           <Model>
                <Name>donelist</Name>
-               <Description en="Clear DoneList" ru="Clear DoneList"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Clear DoneList" en="Clear DoneList"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -1331,8 +1377,8 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>shuffle</Name>
-               <Description en="Wallets shuffle" ru="Wallets shuffle"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Wallets shuffle" en="Wallets shuffle"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
